@@ -5,38 +5,39 @@
     padding: 92px 24px 96px 24px;
     background-color: brown;
     font-size: 18px;
+    font-family:'Raleway';
+    gap: 50px;
+    box-sizing: border-box;
     }
-
 
 
 .header__links-list {
     display: flex;
-    gap: 30px;
-    list-style:circle;
+    gap: 32px;
+    list-style: circle;
+    white-space: nowrap;
 }
-
 
 .header__links-list-item_no-bullit {
     list-style: none;
+    
+}
+
+.header__link_active {
+
     text-decoration: none;
 }
 
-.header__link {
-text-decoration: underline;
-}
-
 .header__logo {
-    display: block;
-    justify-self: center;
+    display: inline-block;
     width: 148px;
     height: 105px;
 }
 
-.header__logo-image {
-    width: 100%;
-}
-
-.header__address {
-
-
+.address {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    top: 5px;
+    line-height: 24px;
 }
