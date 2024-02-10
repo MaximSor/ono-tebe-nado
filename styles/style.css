@@ -18,20 +18,24 @@
     padding-left: 26px;
 }
 
+
 .header__links-list-item_no-bullit {
     list-style: none;
     
 }
+
 
 .header__link_active {
 
     text-decoration: none;
 }
 
+
 .header__logo {
     display: inline-block;
     width: 148px;
 }
+
 
 .address {
     display: flex;
@@ -41,4 +45,15 @@
     top: 5px;
     line-height: 24px;
     padding-right: 28px;
+}
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    
+
+}
+
+.overlay {
+
+    
 }
