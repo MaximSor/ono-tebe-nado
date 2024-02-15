@@ -98,16 +98,19 @@
 }
 
 .aligned-text {
-text-align: left;
+    display: block;
+    text-align: left;
 }
 
 .aligned-text_center {
+    display: block;
     text-align: center;
+    width: 940px;
     
-
 }
 
 .aligned-text_right {
+    display: block;
     text-align: right;
 }
 
@@ -257,7 +260,7 @@ padding-bottom: 30px;
 
 .about {
     display: flex;
-    padding: 0 24px 180px 70px;
+    padding: 20px 24px 180px 70px;
     gap: 70px;
     
 }
