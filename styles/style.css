@@ -337,11 +337,29 @@ html {
 
 .footer {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     padding: 0px 50px 88px 50px;
     gap: 185px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer-address {
@@ -362,7 +380,7 @@ html {
 .footer__menu {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
