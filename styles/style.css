@@ -19,7 +19,7 @@
 
 .header__links-list {
     display: flex;
-    gap: 32px; 
+    gap: 32px;
 }
 
 
@@ -33,7 +33,7 @@
 
 
 .header__links-list-item_no-bullit {
-    list-style: none;  
+    list-style: none;
 }
 
 
@@ -236,7 +236,7 @@
 
 
 .card_type_film {
-    background-image: url(../images/card-lot-01.jpg); 
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 
@@ -295,7 +295,7 @@
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 100px;
-    line-height: 47px; 
+    line-height: 47px;
 }
 
 
@@ -336,7 +336,7 @@
 .footer__menu {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;   
+    justify-content: space-around;
 }
 
 
