@@ -3,7 +3,7 @@
     align-items: center;
     gap: 36px;
     justify-content: space-around;
-    padding: 92px 25px 70px 25px;
+    padding: 92px 25px 96px 25px;
     }
 
 
@@ -14,7 +14,7 @@
     line-height: 21px;
     letter-spacing: 0.01em;
     text-align: left;
-    margin-left: 25px;
+    padding-left: 25px;
 
 }
 
@@ -68,8 +68,6 @@
 }
 
 .cover {
-    width: 1100px;
-    height: 757px;
     position: relative;
     background-position: center;
     background-image: url(../images/cover.jpg);
@@ -86,7 +84,7 @@
 }
 
 .cover__title {
-    padding: 165px 50px 50px 50px;
+    padding: 165px 50px 147px 50px;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -127,8 +125,8 @@ text-align: left;
     align-items: center;
     gap: 79px;
     z-index: 1;
-    padding-top: 60px;
     padding-left: 30px;
+    padding-bottom: 62px;
 }
 
 .cover__description-text {
@@ -154,9 +152,6 @@ text-align: left;
     line-height: 26px;
     letter-spacing: 0;
     text-align: center;
-    font-family: Raleway;
-
-
 
 }
 
@@ -299,13 +294,12 @@ padding-bottom: 30px;
 
 .about__text {
     display: flex;
-    width: 693px;
     flex-direction: column;
     gap: 24px;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.1px;
     text-align: left;
 
 }
@@ -335,6 +329,7 @@ padding-bottom: 30px;
 .footer__menu {
 display: flex;
 flex-direction: column;
+justify-content: space-around;
     
 }
 
