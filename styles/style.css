@@ -126,7 +126,7 @@ text-align: left;
     gap: 79px;
     z-index: 1;
     padding-left: 30px;
-    padding-bottom: 62px;
+    padding-bottom: 31px;
 }
 
 .cover__description-text {
@@ -177,7 +177,7 @@ padding-bottom: 30px;
 
 }
 
-.lots__card-list-item {
+.card-link {
     display: block;
     text-decoration: none;
     height: 100%;
