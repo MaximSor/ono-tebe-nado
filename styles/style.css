@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -171,7 +172,7 @@ html {
 
 
 .lots {
-    padding: 179px 24px 130px 24px;
+    padding: 179px 24px 0 24px;
 }
 
 
@@ -275,13 +276,13 @@ html {
 
 .about {
     display: flex;
-    padding: 20px 24px 180px 70px;
+    padding: 146px 24px 180px 70px;
     gap: 70px;
 }
 
 
 .about__column {
-    padding-top: 95px;
+    padding-top: 133px;
 }
     
     
@@ -293,6 +294,7 @@ html {
     height: 240px;
     border-radius: 50%;
     background-color: black;
+    margin-top: 35px;
 }
 
 
