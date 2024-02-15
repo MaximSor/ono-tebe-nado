@@ -5,10 +5,17 @@ html {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 92px 25px 96px 25px;
+}
+
+.to-indent-in-header {
+    display: flex;
     align-items: center;
     gap: 36px;
-    padding: 92px 25px 96px 25px;
+
+
 }
 
 
@@ -58,9 +65,8 @@ html {
     display: flex;
     flex-direction: column;
     font-style: normal;
-    margin-right: auto;
-    margin-left: 180px;
-    top: 5px;
+    width: 237px;
+    margin-right: 26px;
     line-height: 24px;
     font-size: 18px;
     font-weight: 400;
@@ -318,7 +324,7 @@ html {
 .about__text {
     display: flex;
     flex-direction: column;
-    
+
     text-align: left;
     gap: 24px;
     font-size: 20px;
