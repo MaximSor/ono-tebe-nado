@@ -318,6 +318,7 @@ html {
 .about__text {
     display: flex;
     flex-direction: column;
+    
     text-align: left;
     gap: 24px;
     font-size: 20px;
